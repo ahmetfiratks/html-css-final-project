@@ -37,3 +37,11 @@ h1{
 a{
     color: #fff;
 }
+
+.zoom{
+    transition: transform .5s;
+}
+
+.zoom:hover{
+    transform: scale(1.05);
+}
