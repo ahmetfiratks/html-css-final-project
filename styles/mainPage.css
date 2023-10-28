@@ -30,6 +30,34 @@ img{
     justify-content: space-evenly;
 }
 
+.footer-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+
+@media screen and (max-width:944px){
+    .main-page-list{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    figure{
+        margin: auto;
+    }
+
+    .footer-list{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 25px;
+        margin-bottom: 50px;
+        margin-top: 70px;
+    }
+
+}
+
 .zoom{
     transition: transform .5s;
 }
@@ -43,13 +71,6 @@ figcaption{
     text-align: center;
     width: 250px;
     color: #fff;
-}
-
-.footer-list{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 150px;
 }
 
 li a{
