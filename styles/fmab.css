@@ -40,3 +40,30 @@ body{
 a:visited{
     color: white;
 }
+
+@media screen and (max-width: 1177px){
+    iframe{
+        width: 330px;
+    }
+}
+
+@media screen and (max-width: 712px){
+    .grid-container{
+        grid-template-columns: 1fr;
+    }
+
+    iframe{
+        width: 550px;
+    }
+
+    .main-page-center{
+        margin-bottom: 25px;
+    }
+
+}
+
+@media screen and (max-width: 556px){
+    iframe{
+        width: 360px;
+    }
+}
